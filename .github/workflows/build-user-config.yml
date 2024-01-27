@@ -63,6 +63,7 @@ jobs:
       - name: Install zstd
         run: |
           apt-get update && apt-get -q -y --force-yes install zstd
+          unset TERM
           echo "$(zstd --version)"
           echo "$(zstd --quiet --version)"
 
