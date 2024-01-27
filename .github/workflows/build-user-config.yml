@@ -43,7 +43,6 @@ jobs:
           yaml2json "${{ inputs.build_matrix_path }}" | jq
 
   build:
-    environment: debug
     runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:stable
