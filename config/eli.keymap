@@ -8,6 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        colemak {
+            bindings = <&tog 1>;
+            key-positions = <10 14 15 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -19,6 +28,15 @@
   &kp A  &kp S  &kp D    &kp F      &kp G       &kp H      &kp J      &kp K          &kp L    &kp SEMI
   &kp Z  &kp X  &kp C    &kp V      &kp B       &kp N      &kp M      &kp COMMA      &kp DOT  &kp SLASH
                 &kp TAB  &kp ENTER  &kp BSPC    &kp LCTRL  &kp SPACE  &kp BACKSPACE
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+  &kp Q  &kp W  &kp F   &kp P   &kp B     &kp J   &kp L   &kp U      &kp Y    &kp SEMI
+  &kp A  &kp R  &kp S   &kp T   &kp G     &kp M   &kp N   &kp E      &kp I    &kp O
+  &kp Z  &kp X  &kp C   &kp D   &kp V     &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH
+                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
