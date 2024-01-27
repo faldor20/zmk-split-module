@@ -17,7 +17,8 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-
-include:
-  - board: [ "nice_nano_v2" ]
-    shield: [ "eli_left", "eli_right" ]
+board: [ "nice_nano_v2" ]
+shield: [ "eli_left", "eli_right" ]
+# include:
+#   - board: "nice_nano_v2" 
+#     shield: "eli_left"
