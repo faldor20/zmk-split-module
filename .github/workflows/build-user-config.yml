@@ -63,6 +63,8 @@ jobs:
       - name: Install zstd
         run: |
           apt-get update && apt-get -q -y --force-yes install zstd
+          echo "$(zstd --version)"
+          echo "$(zstd --quiet --version)"
 
       - name: Prepare variables
         shell: sh -x {0}
