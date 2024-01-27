@@ -62,7 +62,7 @@ jobs:
 
       - name: Install zstd
         run: |
-          apt update && apt install -y zstd
+          apt update && apt install -y gzip
 
       - name: Prepare variables
         shell: sh -x {0}
