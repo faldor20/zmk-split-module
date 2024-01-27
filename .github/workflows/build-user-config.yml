@@ -59,6 +59,11 @@ jobs:
       - name: Create build directory
         run: |
           echo "build_dir=$(mktemp -d)" >> $GITHUB_ENV
+          
+      - name: Install zstd
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zstd
 
       - name: Prepare variables
         shell: sh -x {0}
