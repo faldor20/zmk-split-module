@@ -66,6 +66,10 @@ jobs:
           unset TERM
           echo "$(zstd --version)"
           echo "$(zstd --quiet --version)"
+          echo "$(zstd -q --version)"
+          echo "$(zstd -qq --version)"
+          echo "$(zstd --quiet -qq --version)"
+          echo "$(zstd -Vq)"
 
       - name: Prepare variables
         shell: sh -x {0}
