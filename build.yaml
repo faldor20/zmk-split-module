@@ -20,4 +20,4 @@
 
 include:
   - board: [ "nice_nano_v2" ]
-    shield: [ "eli_left", "eli_left" ]
+    shield: [ "eli_left", "eli_right" ]
