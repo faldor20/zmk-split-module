@@ -25,6 +25,11 @@
             bindings = <&sl 3>;
             key-positions = <15 19>;
         };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <16 18>;
+        };
     };
 
     behaviors {
