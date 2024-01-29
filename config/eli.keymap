@@ -14,11 +14,13 @@
         colemak {
             bindings = <&tog 1>;
             key-positions = <10 14 15 19>;
+            require-prior-idle-ms = <200>;
         };
 
         one-hand-toggle {
             bindings = <&tog 1>;
             key-positions = <17 15 19>;
+            require-prior-idle-ms = <200>;
         };
 
         fkeys {
@@ -29,30 +31,32 @@
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <16 18>;
+            require-prior-idle-ms = <200>;
         };
 
         apost {
             bindings = <&kp APOS>;
             key-positions = <8 18>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
             timeout-ms = <100>;
         };
 
         rt2 {
             bindings = <&kp MINUS>;
             key-positions = <7 17>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
         };
 
         rb2 {
             bindings = <&kp PLUS>;
             key-positions = <17 27>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <3 13>;
+            require-prior-idle-ms = <200>;
         };
     };
 
