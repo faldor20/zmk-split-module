@@ -30,6 +30,21 @@
             bindings = <&kp UNDER>;
             key-positions = <16 18>;
         };
+
+        apost {
+            bindings = <&kp APOS>;
+            key-positions = <8 18>;
+        };
+
+        rt2 {
+            bindings = <&kp MINUS>;
+            key-positions = <7 17>;
+        };
+
+        rb2 {
+            bindings = <&kp PLUS>;
+            key-positions = <17 27>;
+        };
     };
 
     behaviors {
