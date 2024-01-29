@@ -34,16 +34,19 @@
         apost {
             bindings = <&kp APOS>;
             key-positions = <8 18>;
+            require-prior-idle-ms = <125>;
         };
 
         rt2 {
             bindings = <&kp MINUS>;
             key-positions = <7 17>;
+            require-prior-idle-ms = <125>;
         };
 
         rb2 {
             bindings = <&kp PLUS>;
             key-positions = <17 27>;
+            require-prior-idle-ms = <125>;
         };
     };
 
