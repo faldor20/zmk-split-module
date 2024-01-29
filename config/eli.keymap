@@ -49,6 +49,11 @@
             key-positions = <17 27>;
             require-prior-idle-ms = <125>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <3 13>;
+        };
     };
 
     behaviors {
