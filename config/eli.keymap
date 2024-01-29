@@ -109,7 +109,7 @@
 
         layer_1 {
             bindings = <
-  &kp Q             &kp W                  &kp F                  &kp P                       &kp B     &kp J   &kp L   &kp U      &kp Y    &kp SEMI
+  &kp Q             &kp W                  &kp F                  &kp P                       &kp B     &kp J   &kp L   &kp U      &kp Y    &capsctr SEMI APOS
   &kp A             &kp R                  &left_hr_mods LCTRL S  &left_hr_mods LEFT_SHIFT T  &kp G     &kp M   &kp N   &kp E      &kp I    &kp O
   &capsctr LCTRL Z  &capsctr LEFT_SHIFT X  &kp C                  &kp D                       &kp V     &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH
                                            &trans                 &trans                      &trans    &trans  &trans  &trans
