@@ -35,6 +35,7 @@
             bindings = <&kp APOS>;
             key-positions = <8 18>;
             require-prior-idle-ms = <125>;
+            timeout-ms = <100>;
         };
 
         rt2 {
