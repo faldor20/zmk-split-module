@@ -59,16 +59,16 @@ jobs:
         run: |
           echo "build_dir=$(mktemp -d)" >> $GITHUB_ENV
 
-      - name: Install zstd
-        run: |
-          apt-get update && apt-get -q -y --force-yes install zstd
-          unset TERM
-          echo "$(zstd --version)"
-          echo "$(zstd --quiet --version)"
-          echo "$(zstd -q --version)"
-          echo "$(zstd -qq --version)"
-          echo "$(zstd --quiet -qq --version)"
-          echo "$(zstd -Vq)"
+      # - name: Install zstd
+      #   run: |
+      #     apt-get update && apt-get -q -y --force-yes install zstd
+      #     unset TERM
+      #     echo "$(zstd --version)"
+      #     echo "$(zstd --quiet --version)"
+      #     echo "$(zstd -q --version)"
+      #     echo "$(zstd -qq --version)"
+      #     echo "$(zstd --quiet -qq --version)"
+      #     echo "$(zstd -Vq)"
 
       - name: Prepare variables
         shell: sh -x {0}
