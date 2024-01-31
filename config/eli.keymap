@@ -34,48 +34,27 @@
             require-prior-idle-ms = <200>;
         };
 
-        apost {
-            bindings = <&kp APOS>;
-            key-positions = <8 18>;
-            require-prior-idle-ms = <200>;
-            timeout-ms = <100>;
-        };
-
         rt2 {
             bindings = <&kp MINUS>;
-            key-positions = <7 17>;
+            key-positions = <17 16>;
             require-prior-idle-ms = <200>;
         };
 
         rb2 {
             bindings = <&kp PLUS>;
-            key-positions = <17 27>;
+            key-positions = <25 26>;
             require-prior-idle-ms = <200>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <3 13>;
+            key-positions = <12 13>;
             require-prior-idle-ms = <200>;
-        };
-
-        semi {
-            bindings = <&kp SEMI>;
-            key-positions = <2 12>;
-            require-prior-idle-ms = <200>;
-            timeout-ms = <80>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <6 16>;
-            require-prior-idle-ms = <200>;
-            timeout-ms = <80>;
-        };
-
-        under {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <16 26>;
+            key-positions = <6 7>;
             require-prior-idle-ms = <200>;
             timeout-ms = <80>;
         };
@@ -83,6 +62,27 @@
         semi2 {
             bindings = <&kp SEMI>;
             key-positions = <7 8>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        and {
+            bindings = <&kp AMPS>;
+            key-positions = <12 11>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <23 22>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        pipe {
+            bindings = <&pipe>;
+            key-positions = <11 13>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
@@ -138,6 +138,22 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "balanced";
+        };
+    };
+
+    macros {
+        pipe: pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE &kp GREATER_THAN>;
+            label = "PIPE";
+        };
+
+        arrow: arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GT>;
+            label = "ARROW";
         };
     };
 
