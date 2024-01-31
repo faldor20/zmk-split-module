@@ -114,6 +114,27 @@
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
+
+        vol_up {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <3 4>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        vol_down {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <13 14>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        play_pause {
+            bindings = <&kp K_PLAY_PAUSE>;
+            key-positions = <23 24>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     behaviors {
