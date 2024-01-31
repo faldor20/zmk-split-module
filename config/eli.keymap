@@ -159,10 +159,10 @@
 
         layer_2 {
             bindings = <
-  &kp N1     &kp N2                                &kp N3                           &kp N4                                         &kp N5        &kp N6        &kp N7                                &kp N8                          &kp N9       &kp N0
-  &kp GRAVE  &kp LEFT_BRACKET                      &kp LEFT_BRACE                   &kp LS(LPAR)                                   &kp DELETE    &kp EQUAL     &kp LEFT                              &kp DOWN                        &kp UP       &kp RIGHT
-  &trans     &left_hr_mods LEFT_ALT RIGHT_BRACKET  &left_hr_mods LCTRL RIGHT_BRACE  &left_hr_mods LEFT_SHIFT KP_RIGHT_PARENTHESIS  &kp MINUS     &kp ASTERISK  &right_hr_mods RIGHT_SHIFT BACKSLASH  &right_hr_mods RCTRL PAGE_DOWN  &kp PAGE_UP  &right_hr_mods RIGHT_WIN SEMI
-                                                   &trans                           &trans                                         &trans        &trans        &trans                                &trans
+  &kp N1                         &kp N2                                &kp N3                           &kp N4                                         &kp N5       &kp N6        &kp N7                                &kp N8                          &kp N9       &kp N0
+  &kp GRAVE                      &kp LEFT_BRACKET                      &kp LEFT_BRACE                   &kp LS(LPAR)                                   &kp UNDER    &kp EQUAL     &kp LEFT                              &kp DOWN                        &kp UP       &kp RIGHT
+  &left_hr_mods LEFT_WIN DELETE  &left_hr_mods LEFT_ALT RIGHT_BRACKET  &left_hr_mods LCTRL RIGHT_BRACE  &left_hr_mods LEFT_SHIFT KP_RIGHT_PARENTHESIS  &kp MINUS    &kp ASTERISK  &right_hr_mods RIGHT_SHIFT BACKSLASH  &right_hr_mods RCTRL PAGE_DOWN  &kp PAGE_UP  &right_hr_mods RIGHT_WIN SEMI
+                                                                       &trans                           &trans                                         &trans       &trans        &trans                                &trans
             >;
         };
 
