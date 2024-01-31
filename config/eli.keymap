@@ -42,7 +42,7 @@
 
         rb2 {
             bindings = <&kp PLUS>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
             require-prior-idle-ms = <200>;
         };
 
@@ -68,7 +68,7 @@
 
         and {
             bindings = <&kp AMPS>;
-            key-positions = <12 11>;
+            key-positions = <2 3>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
@@ -89,14 +89,28 @@
 
         paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <6 8>;
+            key-positions = <11 12>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <26 28>;
+            key-positions = <21 22>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        arrow {
+            bindings = <&arrow>;
+            key-positions = <21 23>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <17 18>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
@@ -178,10 +192,10 @@
 
         base_layer {
             bindings = <
-  &kp Q             &kp W  &kp E                  &kp R                    &kp T          &kp Y                 &kp U                          &kp I          &kp O    &kp P
-  &kp A             &kp S  &kp D                  &kp F                    &kp G          &kp H                 &kp J                          &kp K          &kp L    &kp SEMI
-  &capsctr LCTRL Z  &kp X  &kp C                  &kp V                    &kp B          &kp N                 &kp M                          &kp COMMA      &kp DOT  &kp SLASH
-                           &capsctr LEFT_ALT TAB  &capsctr LEFT_WIN SPACE  &lt 2 SPACE    &capsctr RCTRL ENTER  &capsctr LEFT_SHIFT BACKSPACE  &kp BACKSPACE
+  &kp Q             &kp W  &kp E                  &kp R                    &kp T           &kp Y                 &kp U                          &kp I       &kp O    &kp P
+  &kp A             &kp S  &kp D                  &kp F                    &kp G           &kp H                 &kp J                          &kp K       &kp L    &kp SEMI
+  &capsctr LCTRL Z  &kp X  &kp C                  &kp V                    &kp B           &kp N                 &kp M                          &kp COMMA   &kp DOT  &kp SLASH
+                           &capsctr LEFT_ALT TAB  &capsctr LEFT_WIN SPACE  &lt 2 ESCAPE    &capsctr RCTRL ENTER  &capsctr LEFT_SHIFT BACKSPACE  &kp ESCAPE
             >;
         };
 
