@@ -86,6 +86,20 @@
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
+
+        paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 8>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
+
+        bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 28>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     behaviors {
