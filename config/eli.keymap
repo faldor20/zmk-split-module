@@ -36,13 +36,13 @@
 
         rt2 {
             bindings = <&kp MINUS>;
-            key-positions = <17 16>;
+            key-positions = <26 27>;
             require-prior-idle-ms = <200>;
         };
 
         rb2 {
             bindings = <&kp PLUS>;
-            key-positions = <26 27>;
+            key-positions = <6 7>;
             require-prior-idle-ms = <200>;
         };
 
@@ -54,14 +54,14 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <6 7>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <200>;
             timeout-ms = <80>;
         };
 
         semi2 {
             bindings = <&kp SEMI>;
-            key-positions = <7 8>;
+            key-positions = <18 17>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
@@ -75,7 +75,7 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <23 22>;
+            key-positions = <27 28>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
@@ -110,7 +110,7 @@
 
         star {
             bindings = <&kp STAR>;
-            key-positions = <17 18>;
+            key-positions = <7 8>;
             timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
