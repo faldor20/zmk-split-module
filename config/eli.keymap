@@ -56,83 +56,71 @@
             bindings = <&kp EQUAL>;
             key-positions = <16 17>;
             require-prior-idle-ms = <200>;
-            timeout-ms = <80>;
         };
 
         semi2 {
             bindings = <&kp SEMI>;
             key-positions = <18 17>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         and {
             bindings = <&kp AMPS>;
             key-positions = <2 3>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <27 28>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         pipe {
             bindings = <&pipe>;
             key-positions = <11 13>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <11 12>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <21 22>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         arrow {
             bindings = <&arrow>;
             key-positions = <21 23>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         star {
             bindings = <&kp STAR>;
             key-positions = <7 8>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         vol_up {
             bindings = <&kp C_VOL_UP>;
             key-positions = <3 4>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         vol_down {
             bindings = <&kp C_VOL_DN>;
             key-positions = <13 14>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
 
         play_pause {
             bindings = <&kp K_PLAY_PAUSE>;
             key-positions = <23 24>;
-            timeout-ms = <80>;
             require-prior-idle-ms = <200>;
         };
     };
