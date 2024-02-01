@@ -126,7 +126,13 @@
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <30 35 32 33>;
+            key-positions = <35 33>;
+            require-prior-idle-ms = <500>;
+        };
+
+        bootloader2 {
+            bindings = <&bootloader>;
+            key-positions = <30 32>;
             require-prior-idle-ms = <500>;
         };
     };
