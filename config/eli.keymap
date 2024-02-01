@@ -123,6 +123,12 @@
             key-positions = <23 24>;
             require-prior-idle-ms = <200>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <30 35 32 33>;
+            require-prior-idle-ms = <500>;
+        };
     };
 
     behaviors {
