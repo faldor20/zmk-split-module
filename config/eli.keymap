@@ -83,7 +83,7 @@
         };
 
         paren {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&paren>;
             key-positions = <11 12>;
             require-prior-idle-ms = <200>;
         };
@@ -135,15 +135,9 @@
             require-prior-idle-ms = <200>;
         };
 
-        right_paren {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <12 10>;
-            require-prior-idle-ms = <200>;
-        };
-
-        right_brace {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <22 20>;
+        brace {
+            bindings = <&brace>;
+            key-positions = <2 1>;
             require-prior-idle-ms = <200>;
         };
     };
@@ -198,6 +192,24 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "balanced";
+        };
+
+        paren: paren {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PAREN";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        brace: brace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BRACE";
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
