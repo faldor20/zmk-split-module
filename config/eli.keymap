@@ -128,6 +128,24 @@
             bindings = <&kp GRAVE>;
             key-positions = <23 22>;
         };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <28 26>;
+            require-prior-idle-ms = <200>;
+        };
+
+        right_paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <12 10>;
+            require-prior-idle-ms = <200>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <22 20>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     behaviors {
