@@ -18,3 +18,5 @@ config ZMK_SPLIT
 
 
 endif
+
+CONFIG_ZMK_SLEEP=y
