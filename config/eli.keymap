@@ -14,7 +14,7 @@
 
         colemak {
             bindings = <&tog 1>;
-            key-positions = <10 14 15 19>;
+            key-positions = <15 19 14 10>;
             require-prior-idle-ms = <200>;
         };
 
@@ -26,7 +26,7 @@
 
         fkeys {
             bindings = <&sl 3>;
-            key-positions = <15 19>;
+            key-positions = <25 29>;
         };
 
         underscore {
