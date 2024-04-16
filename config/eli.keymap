@@ -284,5 +284,14 @@
                   &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
+
+        layer_5 {
+            bindings = <
+  &kp ESC                    &kp Q  &kp X    &kp E      &kp R           &kp T  &none  &none  &none  &none
+  &capsctr LEFT_CONTROL TAB  &kp A  &kp W    &kp D      &kp F           &kp G  &kp N  &kp E  &kp I  &kp O
+  &kp LEFT_SHIFT             &kp Z  &kp S    &kp C      &kp D           &kp M  &none  &none  &none  &none
+                                    &kp F20  &kp SPACE  &lt 2 ESCAPE    &none  &none  &none
+            >;
+        };
     };
 };
